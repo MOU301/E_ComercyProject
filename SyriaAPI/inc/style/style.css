@@ -1,0 +1,42 @@
+.mid{
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+     
+}
+.mid>form{
+    width: 400px;
+    height: auto;
+}
+.admins{
+    display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     align-content: center;
+}
+.admins>ul{
+    list-style: none;
+}
+.h>ul{
+    list-style: none;
+display:  flex;
+justify-content: space-evenly;
+    
+}
+.h>ul>li{
+padding: 5px;
+}
+.h>ul>li>a{
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    font-size: 20px;
+}
+.h>ul>li>a:hover{
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
