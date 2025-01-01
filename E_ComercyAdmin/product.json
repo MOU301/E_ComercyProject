@@ -1,0 +1,11 @@
+{"products":[
+    {"id":1,"bests":true,"size":["M","L","S","XL","XXL"],"src":["c1.jpg","c2.jpg"],"title":"der aaaaaaaaaa","description":"Lorem ipsum dolor sit amet.","price":"300","category":"men","type":"topwear"},
+    {"id":2,"bests":false,"size":["M","L","S","XL","XXL"],"src":["c2.jpg"],"title":"der aaaaaaaaaa","description":"Lorem ipsum dolor sit amet.","price":"70","category":"men","type":"winterwear"},
+    {"id":3,"bests":true,"size":["M","L","S","XL","XXL"],"src":["c3.jpg","c4.jpg","c5.jpg","c6.jpg"],"title":"das bbbbbbbbbb","description":"Lorem ipsum dolor sit amet.","price":"90","category":"women","type":"bottomwear"},
+    {"id":4,"bests":false,"size":["M","L","S","XL","XXL"],"src":["c4.jpg"],"title":"das ssssssssss","description":"Lorem ipsum dolor sit amet.","price":"50","category":"men","type":"winterwear"},
+    {"id":5,"bests":false,"size":["M","L","S","XL","XXL"],"src":["c5.jpg"],"title":"die tttttttttt","description":"Lorem ipsum dolor sit amet.","price":"10","category":"kids","type":"bottomwear"},
+    {"id":6,"bests":true,"size":["M","L","S","XL","XXL"],"src":["c6.jpg"],"title":"die kkkkkkkkkk","description":"Lorem ipsum dolor sit amet.","price":"40","category":"women","type":"topwear"},
+    {"id":7,"bests":false,"size":["M","L","S","XL","XXL"],"src":["c7.jpg"],"title":" der gggggggggg","description":"Lorem ipsum dolor sit amet.","price":"60","category":"kids","type":"bottomwear"},
+    {"id":8,"bests":true,"size":["M","L","S","XL","XXL"],"src":["c8.jpg"],"title":"die ffffffffff","description":"Lorem ipsum dolor sit amet.","price":"100","category":"kids","type":"topwear"}
+]
+}
