@@ -1,0 +1,31 @@
+{"collections":[
+    {"id":1,"bests":true,"size":["M","L","S","XL","XXL"],"src":["c1.jpg","c2.jpg"],"title":"aaaaaaaaaa","description":"Lorem ipsum dolor sit amet.","price":"300","category":"men","type":"topwear"},
+    {"id":2,"bests":false,"size":["M","L","S","XL","XXL"],"src":["c2.jpg"],"title":"aaaaaaaaaa","description":"Lorem ipsum dolor sit amet.","price":"70","category":"men","type":"winterwear"},
+    {"id":3,"bests":true,"size":["M","L","S","XL","XXL"],"src":["c3.jpg","c4.jpg","c5.jpg","c6.jpg"],"title":"bbbbbbbbbb","description":"Lorem ipsum dolor sit amet.","price":"90","category":"women","type":"bottomwear"},
+    {"id":4,"bests":false,"size":["M","L","S","XL","XXL"],"src":["c4.jpg"],"title":"ssssssssss","description":"Lorem ipsum dolor sit amet.","price":"50","category":"men","type":"winterwear"},
+    {"id":5,"bests":false,"size":["M","L","S","XL","XXL"],"src":["c5.jpg"],"title":"tttttttttt","description":"Lorem ipsum dolor sit amet.","price":"10","category":"kids","type":"bottomwear"},
+    {"id":6,"bests":true,"size":["M","L","S","XL","XXL"],"src":["c6.jpg"],"title":"kkkkkkkkkk","description":"Lorem ipsum dolor sit amet.","price":"40","category":"women","type":"topwear"},
+    {"id":7,"bests":false,"size":["M","L","S","XL","XXL"],"src":["c7.jpg"],"title":"gggggggggg","description":"Lorem ipsum dolor sit amet.","price":"60","category":"kids","type":"bottomwear"},
+    {"id":8,"bests":true,"size":["M","L","S","XL","XXL"],"src":["c8.jpg"],"title":"ffffffffff","description":"Lorem ipsum dolor sit amet.","price":"100","category":"kids","type":"topwear"}
+],
+"orders":[
+    {"id":1,"title":"aaaaaaaaaa","size":"M","quantity":3,"src":"c1.jpg","price":"300","date":"01/06/2024","payment":"COD","state":"order-placed"},
+    {"id":2,"title":"bbbbbbbbbb","size":"L","quantity":3,"src":"c2.jpg","price":"100","date":"05/06/2024","payment":"COD","state":"ready_ship"},
+    {"id":3,"title":"cccccccccc","size":"XL","quantity":3,"src":"c3.jpg","price":"500","date":"08/06/2024","payment":"COD","state":"order-placed"},
+    {"id":4,"title":"ddddddddd","size":"S","quantity":3,"src":"c4.jpg","price":"50","date":"10/06/2024","payment":"COD","state":"order-placed"}
+],
+"best":[
+    {"id":9,"src":"b4.jpg","description":"Lorem ipsum dolor sit amet.","price":"$80"},
+    {"id":10,"src":"b3.jpg","description":"Lorem ipsum dolor sit amet.","price":"$80"},
+    {"id":11,"src":"b2.jpg","description":"Lorem ipsum dolor sit amet.","price":"$80"},
+    {"id":12,"src":"b1.jpg","description":"Lorem ipsum dolor sit amet.","price":"$80"}
+  
+],
+"related":[
+    {"id":13,"src":"r4.jpg","description":"Lorem ipsum dolor sit amet.","price":"$80"},
+    {"id":14,"src":"r3.jpg","description":"Lorem ipsum dolor sit amet.","price":"$80"},
+    {"id":15,"src":"r2.jpg","description":"Lorem ipsum dolor sit amet.","price":"$80"},
+    {"id":16,"src":"r1.jpg","description":"Lorem ipsum dolor sit amet.","price":"$80"}
+  
+]
+}
