@@ -1,0 +1,143 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  min-height: 100vh;
+  display: flex;
+  animation: fadeIn 1.8s ;
+}
+.sidebar{
+ position:sticky;
+  background-color:#eee;
+}
+.main{
+  background-color: white;
+}
+.bottom{
+  position: absolute;
+  bottom: 0px;
+}
+.icon{
+ transition: 0.1s all ease-in-out;
+}
+.icon:hover{
+  color: #dc3545;
+
+}
+.image{
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.image>img{
+  width: 100%;
+  height: 100%;
+}
+.main{
+  width: 100%;
+}
+.work{
+  border: 1px solid red;
+}
+.text-gray{
+  color: rgb(198, 198, 198);
+}
+.colors{
+  display: inline-block;
+  background:linear-gradient(16deg,#4b90ff,#ff5546);
+  background-clip: text;
+  color: transparent;
+}
+.search{
+  position: relative;
+  width: 100%;
+ margin-top: 100px !important;
+  padding: 5px;
+  border-radius:15px;
+  background: #d0d0d0;
+
+}
+.search>input{
+  min-width: 80%;
+  border: none;
+  outline: none;
+  background-color: #d0d0d0;
+}
+.item{
+  position: relative;
+  background-color: #d0d0d0;
+  border-radius: 5px;
+  min-height: 150px;
+}
+.icon-card{
+  position:absolute;
+  right: 10px;
+  bottom: 10px;
+}
+ul{
+list-style: none;
+padding: 2px;
+
+}
+ul>li>span{
+  color: gray;
+}
+.question{
+
+  padding: 2px;
+  transition: 0.1s all ease-in-out;
+  border-radius: 10px;
+
+}
+.question:hover{
+  background-color: #d0d0d0;
+}
+.loader{
+  width: 100%;
+  display: flex;
+flex-direction: column;
+gap :10px;
+}
+.loader hr{
+  padding: 0px !important;
+  margin: 0px !important;
+  border-radius:4px ;
+  border: none;
+  background-color: #f6f7f8;
+  background: linear-gradient(to right,#0c87df,#ffffff,#0c87df);
+  background-size: 800px 50px;
+  height: 20px;
+  animation: loader 3s infinite linear;
+
+}
+.row>div{
+  margin-top: 10px !important;
+}
+.recent{
+  animation: fadeIn 1.5s ;
+}
+@keyframes loader{
+  0%{background-position: -800px 0px;}
+  100%{background-position: 800px 0px;}
+}
+@keyframes fadeIn {
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+.result{
+  font-size:17px;
+  font-weight: 300;
+  line-height: 1.8;
+
+
+}
+@media (max-width :600px) {
+  .sidebar{
+    display: none;
+  }
+  
+}
